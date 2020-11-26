@@ -1,0 +1,52 @@
+html,body{
+    padding:0;
+    margin:0;
+}
+.centered{
+    text-align: center;
+}
+h1{
+    font-family: Helvetica, Arial,sans-serif;
+}
+#welcome{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #eee;
+    padding:1.5rem;
+}
+#welcome div{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:1rem;
+    font-size: 105%;
+}
+#welcome header{
+    font-size:140%;
+    padding:1rem;
+}
+blockquote {
+  background: #aaa;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 2em 3em;
+  quotes: "\201C""\201D""\2018""\2019";
+  width:80%;
+  font-size:110%;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+.comms_info{
+    padding-left:2rem;
+}
+a{
+    margin:1rem 0.6rem;
+    text-decoration: none;
+}
