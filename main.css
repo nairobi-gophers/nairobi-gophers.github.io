@@ -1,6 +1,7 @@
 html,body{
     padding:0;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .centered{
     text-align: center;
@@ -19,7 +20,7 @@ h1{
     padding:1rem;
     font-size: 105%;
 }
-#welcome header{
+header{
     font-size:140%;
     padding:1rem;
 }
@@ -49,4 +50,13 @@ blockquote p {
 a{
     margin:1rem 0.6rem;
     text-decoration: none;
+}
+.loading{
+    color:red;
+    font-size: 120%;
+    padding-left:45%;
+    font-weight: bolder;
+}
+#wip{
+    margin-left:45%;
 }
