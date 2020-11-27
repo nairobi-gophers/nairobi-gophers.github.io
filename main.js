@@ -17,8 +17,6 @@ window.onload = function (ev) {
             }
             if (projectsList.length > 0) {
                 projectsDiv = document.querySelector("div#lineup")
-                projectsDiv.classList.remove("loading")
-                projectsDiv.innerText = projectsList[1]["repoName"]
                 console.log(projectsList)
 
             }

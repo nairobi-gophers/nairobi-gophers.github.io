@@ -3,60 +3,36 @@ html,body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:1em;
+}
 .centered{
     text-align: center;
 }
 h1{
-    font-family: Helvetica, Arial,sans-serif;
+    color:blue;
 }
 #welcome{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #eee;
     padding:1.5rem;
-}
-#welcome div{
-    font-family: Arial, Helvetica, sans-serif;
-    padding:1rem;
-    font-size: 105%;
-}
-header{
-    font-size:140%;
-    padding:1rem;
-}
-blockquote {
-  background: #aaa;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 2em 3em;
-  quotes: "\201C""\201D""\2018""\2019";
-  width:80%;
-  font-size:110%;
-}
-blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-blockquote p {
-  display: inline;
-}
-.comms_info{
-    padding-left:2rem;
+    color:#fff;
+    font-weight: 100;
+    background-color: blue;
+    padding:1.5rem;
 }
 a{
     margin:1rem 0.6rem;
     text-decoration: none;
 }
-.loading{
-    color:red;
-    font-size: 120%;
-    padding-left:45%;
-    font-weight: bolder;
+@media only screen and (min-width:768px){
+    body{
+        grid-template-columns: 1fr 2fr;
+    }
 }
-#wip{
-    margin-left:45%;
+@media only screen and (min-width:900px){
+    body{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
 }
