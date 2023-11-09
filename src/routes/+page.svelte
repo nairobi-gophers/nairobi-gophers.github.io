@@ -11,7 +11,7 @@
 <nav class="border-b border-b-gray-300 lg:border-none lg:flex lg:flex-row lg:items-center lg:justify-between lg:p-3">
     <div class="flex flex-row items-center gap-2">
 
-        <div class="flex flex-row items-center p-1">
+        <div class="flex flex-row items-center p-1 lg:p-0">
             <button {...$triggerAttrs} class="text-primary-blue w-10 lg:hidden"
                     use:useTrigger>
                  <span class="material-symbols-outlined text-4xl block">
@@ -19,7 +19,7 @@
             </span>
             </button>
 
-            <img alt="Nairobi gophers logo" class="w-11 h-auto"
+            <img alt="Nairobi gophers logo" class="w-11 h-auto lg:w-13"
                  src={nairobiGophersLogo}/>
         </div>
 
