@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>We Are <br/> Nairobi Golfers</h1>
+<p>We are a group is for Go Enthusiasts. We aim to create a community
+    around the language and share experiences adopting the language.</p>
